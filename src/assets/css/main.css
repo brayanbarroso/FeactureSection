@@ -100,3 +100,23 @@ header p {
   margin-block: 16px;
   margin-inline: 24px;
 }
+
+/* footer */
+.author-info {
+  color: var(--text-card);
+  font-size: 1rem;
+  margin-top: 16px;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.author-info a {
+  color: var(--paragraph);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.author-info a:hover {
+  color: var(--text-card);
+  font-weight: bold;
+}
