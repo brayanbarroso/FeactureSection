@@ -1,0 +1,100 @@
+:root {
+  --bg-body: #121826;
+  --bg-card: #212936;
+  --text-header: #e5e7eb;
+  --bg-comment: #fbe5e6;
+  --bg-hand: #fceed8;
+  --bg-arco: #dee9fc;
+  --text-card: #d2d5da;
+  --paragraph: #9da3ae;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-body);
+  font-family: "Outfit", sans-serif;
+  font-size: 1rem;
+}
+
+p {
+  color: var(--paragraph);
+  font-size: 1rem;
+}
+
+header {
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  max-width: 450px;
+}
+
+header h1 {
+  color: var(--text-header);
+  font-size: 2.5rem;
+  margin-block-start: 56px;
+  text-align: center;
+}
+
+header p {
+  text-align: center;
+  margin-block-start: 32px;
+}
+
+.section-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+  margin-block: 40px;
+}
+
+.card {
+  background-color: var(--bg-card);
+  border-radius: 16px;
+  /* padding-inline: 16px; */
+  max-width: 312px;
+}
+
+.card-icon {
+  /* border: 1px solid red; */
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+  font-size: 1.5rem;
+  justify-content: center;
+  height: 56px;
+  margin-inline: 24px;
+  margin-top: 24px;
+  width: 56px;
+}
+
+.hand {
+  background-color: var(--bg-hand);
+}
+
+.arco {
+  background-color: var(--bg-arco);
+}
+
+.comment {
+  background-color: var(--bg-comment);
+}
+
+.card-content {
+  margin-inline: 24px;
+}
+.card-content h2 {
+  color: var(--text-card);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-block: 16px;
+}
+
+.photo1 {
+  border-radius: 8px;
+  margin-block: 16px;
+  margin-inline: 24px;
+}

@@ -1,0 +1,50 @@
+---
+import photo1 from "../assets/image/photo_1.png";
+import photo2 from "../assets/image/photo_2.png";
+import photo3 from "../assets/image/photo_3.png";
+
+// estilos
+import "../assets/css/main.css";
+---
+
+<header>
+  <h1>Quality feedbacks for your SaaS products</h1>
+  <p>The blocks & components you need</p>
+</header>
+
+<main>
+  <section class="section-cards">
+    <div class="card">
+      <div class="card-icon hand">✋</div>
+      <div class="card-content">
+        <h2>Collect Feedback at Multiple Touchpoints</h2>
+        <p>Provide a comprehensive understanding of the customer experience.</p>
+      </div>
+      <img src={photo2.src} alt="" class="photo1" />
+    </div>
+
+    <div class="card">
+      <div class="card-icon arco">🥅</div>
+      <div class="card-content">
+        <h2>Ask Targeted and Specific Questions</h2>
+        <p>
+          Avoid vague or open-ended questions that may not yield actionable
+          insights.
+        </p>
+      </div>
+      <img src={photo1.src} alt="" class="photo1" />
+    </div>
+
+    <div class="card">
+      <div class="card-icon comment">💬</div>
+      <div class="card-content">
+        <h2>Prioritize and Respond to Feedback</h2>
+        <p>
+          Communicate the changes or improvements you've made in response to
+          their feedback.
+        </p>
+      </div>
+      <img src={photo3.src} alt="" class="photo1" />
+    </div>
+  </section>
+</main>
